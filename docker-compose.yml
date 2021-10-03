@@ -1,0 +1,11 @@
+version: '3'
+services:
+  lambomoon-ventures-website:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: duyyudus/lambomoon-ventures-website
+    container_name: lambomoon-ventures-website
+    restart: always
+    ports:
+      - 8020:80

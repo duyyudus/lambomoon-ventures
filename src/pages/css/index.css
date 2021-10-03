@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+@import "common.css";
+
+html body {
+  font-family: "Quicksand", sans-serif;
+  background-color: var(--bg) !important;
+}
+code {
+  font-family: "PT Mono", source-code-pro, Menlo, Monaco, Consolas,
+    "Courier New", monospace;
+}
+
+.not-found {
+  color: var(--golden);
+}
+
+.home {
+  /* padding: 0 0 0 0; */
+  max-width: fit-content;
+  color: var(--cyan);
+}
+
+.section-title {
+  font-size: 55px;
+  color: var(--teal-lighter);
+}
+.section-desc {
+  color: var(--cyan);
+}
+
+.custom-link {
+  color: var(--teal);
+}
+.custom-link:hover {
+  color: var(--teal-lighter) !important;
+}
+.try-it-link {
+  color: var(--teal);
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 4px 0 0 0;
+}
+.try-it-link:hover {
+  color: var(--teal-lighter) !important;
+}
+
+.logo {
+  max-width: 300px;
+  margin: 0 0 20px 0;
+}
+
+.intro {
+  font-size: 18px;
+  margin: 0 0 20px 0;
+}
+
+.portfolio {
+  font-size: 16px;
+  margin: 0 0 20px 0;
+}
+.portfolio-item-logo {
+  max-width: 50px;
+}
+
+.project {
+  font-size: 16px;
+  margin: 0 0 20px 0;
+}
+
+.project-item {
+}
+.project-item-title {
+  font-size: 25px;
+  color: var(--teal);
+}
+
+.partner {
+  font-size: 16px;
+  margin: 0 0 20px 0;
+}
+.partner-item-logo {
+  max-width: 50px;
+}
+
+.about {
+  font-size: 16px;
+  margin: 0 0 20px 0;
+}
