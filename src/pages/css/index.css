@@ -16,7 +16,7 @@ code {
 
 .home {
   /* padding: 0 0 0 0; */
-  max-width: fit-content;
+  max-width: 650px;
   color: var(--cyan);
 }
 
@@ -46,8 +46,10 @@ code {
 }
 
 .logo {
-  max-width: 300px;
-  margin: 0 0 20px 0;
+  margin: 0 0 0 0;
+}
+.img-logo {
+  width: 100%;
 }
 
 .intro {
@@ -68,7 +70,8 @@ code {
   margin: 0 0 20px 0;
 }
 
-.project-item {
+.project-item-body {
+  font-style: italic;
 }
 .project-item-title {
   font-size: 25px;

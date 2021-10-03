@@ -42,7 +42,11 @@ function Logo() {
     <div className="row justify-content-center">
       <div className="col-auto">
         <div className="logo">
-          <img src="logo-short.png" className="img-rounded logo" alt="logo" />
+          <img
+            src="logo-short.png"
+            className="img-rounded img-logo"
+            alt="logo"
+          />
         </div>
       </div>
     </div>
@@ -75,8 +79,12 @@ function Portfolio() {
           </p>
           <div className="row justify-content-start g-1">
             {PORTFOLIO_ITEMS.map((item, i) => (
-              <div className="col-auto">
-                <PortfolioItem logoUrl={item.logo} link={item.link} key={i} />
+              <div className="col-auto" key={i}>
+                <PortfolioItem
+                  logoUrl={item.logo}
+                  link={item.link}
+                  key={"portfolio-item" + i}
+                />
               </div>
             ))}
           </div>
@@ -161,8 +169,12 @@ function Partner() {
           <p className="section-desc">together, we fly to the moon</p>
           <div className="row justify-content-start g-1">
             {PARTNER_ITEMS.map((item, i) => (
-              <div className="col-auto">
-                <PartnerItem logoUrl={item.logo} link={item.link} key={i} />
+              <div className="col-auto" key={i}>
+                <PartnerItem
+                  logoUrl={item.logo}
+                  link={item.link}
+                  key={"partner-item" + i}
+                />
               </div>
             ))}
           </div>
