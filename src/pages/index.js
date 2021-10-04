@@ -118,6 +118,12 @@ function Project() {
             projects built by our development partners
           </p>
           <ProjectItem
+            title="Lambomoon Metaverse"
+            intro="NFT metaverse game of L.A.M.B.O Solar System"
+            github="https://lambomoon.xyz"
+            appLink=""
+          />
+          <ProjectItem
             title="Polka Index"
             intro="keep track of tokens built on Substrate or heavily involved in Polkadot ecosystem"
             github="https://github.com/yudus-labs/polka-index"
@@ -152,7 +158,6 @@ function ProjectItem(props) {
         // </div>
         ""
       )}
-      <br />
       <br />
 
       <p className="project-item-body">{props.intro}</p>
