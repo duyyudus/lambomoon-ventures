@@ -50,6 +50,8 @@ code {
 }
 .img-logo {
   width: 100%;
+  max-width: 400px;
+  margin-top: 30px;
 }
 
 .intro {

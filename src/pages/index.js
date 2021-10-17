@@ -119,7 +119,7 @@ function Project() {
           </p>
           <ProjectItem
             title="Lambomoon Metaverse"
-            intro="NFT metaverse game of L.A.M.B.O Solar System"
+            intro="blockbuster NFT game on Moonbeam/Polkadot, powered by Unreal Engine 5"
             github="https://lambomoon.xyz"
             appLink=""
           />
